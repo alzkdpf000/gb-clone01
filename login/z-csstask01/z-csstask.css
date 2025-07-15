@@ -1,0 +1,269 @@
+@media only screen and (min-width: 1080px) {
+    div.dtzwMJ {
+        display: block;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        width: 50%;
+        height: 100%;
+        background-image: url(https://assets.tumblbug.com/static_assets/login/bg_login_kakao.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+
+@media only screen and (min-width: 1080px) {
+    div.IG
+ {
+        margin-top: 70px;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1080px) {
+    div.dfDxXK {
+        height: 88px;
+    }
+}
+
+
+div.tbb-only-ff {
+    display: -webkit-box;
+    -webkit-box-orient : vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-height: 100%;
+    height: 100%;
+}
+
+div.eAQ {
+    position: fixed;
+    width: 42px;
+    height: 42px;
+    right: 16px;
+    bottom: calc(env(safe-area-inset-bottom) + 72px);
+    z-index: 999;
+    display: none;
+}
+
+h3, p, div {
+    word-break: break-all;
+}
+
+div.KFC {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+}
+
+div.jarjio {
+    background-color: rgb(251, 249, 249);
+    height: 100%;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+
+
+div.dfDxXK {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    height: 66px;
+
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+button.dj {
+    background: none;
+    border: none;
+}
+
+button, select  {
+    text-transform: none;
+}
+
+button {
+    overflow: visible;
+}
+
+div.IG {
+    margin-top: 500px;
+    text-align: center;
+}
+
+div.kh {
+    padding: 10px 0px;
+    overflow: hidden;
+    text-align: center;
+}
+
+div.bR {
+   display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1080px;
+    padding: 0px 16px;
+    margin: 0px auto;
+}
+
+
+div.duU  {
+    margin: 0px;
+    font-size: 44px;
+}
+
+div.eB {
+    width: 110px;
+    transition: 0.3s;;
+}
+
+div.ioj {
+    flex: 1 1 0%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+    margin: 0px auto;
+    padding: 20px 16px;
+    box-sizing: border-box;
+
+}
+
+div.fj {
+       flex: 1 1 0px;
+} 
+
+div.eP {
+    width:100%;
+    max-width: 328px;
+    margin: 0px auto;
+}
+
+div.iuBIcb {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin: 50px 0px 0px;
+    font-size: 12px;
+    line-height: 19px;
+    letter-spacing: -0.01em;
+    font-weight: 500;
+    color: rgb(158, 158, 158);
+
+}
+
+fuBkMs svg {
+    width: 1em;
+    height: 1em;
+}
+
+
+div.eU {
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+p:first-child {
+    margin-top: 0em;
+}
+
+p.bd {
+    margin: 0px 0px 4px;
+    font-weight: 300;
+    font-size: 15px;
+    color: rgb(13, 13, 13);  
+}
+
+p.iA {
+    line-height: 28px;
+    margin: 0px;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(13, 13, 13);
+}
+
+
+button.yiKiH {
+    position: relative;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    height: 62px;
+    padding: 0px 18px;
+    background-color: rgb(254, 229, 0);
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    color: rgb(25, 25, 25);
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 120%;
+}
+
+div.fuBkMs {
+    display: inline-flex;
+    align-self: center;
+}
+
+
+div.eKcYyM {
+    position: absolute;
+    left: 18px;
+    font-size: 24px;
+    margin-right: auto;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    min-width: 320px;
+    background: #f6f5f5;
+    font-size: 14px;
+    line-height: 1.7em;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+body {
+    font-family: Pretendard;
+}
+
+a, div {
+   text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+}
+
+
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
