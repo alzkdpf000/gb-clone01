@@ -621,6 +621,93 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
     font-weight: normal;
 }
 
+@media only screen and (min-width: 1200px) {
+    .InfinityScroll__InfinityContainer_wrap {
+        width: 1160px;
+    }
+}
+
+.InfinityScroll__InfinityContainer{
+    min-height: 150px;
+}
+
+.InfinityScroll__InfinityContainer_wrap{
+    position: relative;
+    height: auto;
+    padding: 0px;
+    margin: 0px auto;
+}
+
+.InfinityScroll__ResultWrapper{
+    color: rgb(51, 51, 51);
+}
+.InfinityScroll__ResultCounter{
+    font-size: 14px;
+    line-height: 24px;
+    color: rgb(61, 61, 61);
+    padding: 6px 16px 10px;
+    letter-spacing: -0.08px;
+}
+
+@media (min-width: 1080px) {
+    .InfinityScroll__ResultCounter {
+        font-size: 16px;
+        line-height: 27px;
+        width: 100%;
+        margin: 0px auto;
+        padding: 16px 20px 12px 0px;
+    }
+}
+
+@media (min-width: 1080px) {
+    .InfinityScroll__ListWrapper {
+        -webkit-box-pack: start;
+        justify-content: flex-start;
+        margin: 0px -10px;
+        padding: 0px;
+    }
+}
+
+@media (min-width: 640px) {
+    .InfinityScroll__ListWrapper {
+        width: auto;
+    }
+}
+
+.InfinityScroll__ListWrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+@media only screen and (min-width: 992px) {
+    .InfinityScroll__ProjectCardWrapper {
+        padding: 20px 10px;
+        width: 25%;
+    }
+}
+.InfinityScroll__ProjectCardWrapper{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.BasicProjectCard__CardWrapper{
+    display: flex;
+    flex-direction: column;
+    min-width: 136px;
+    position: relative;
+    width: 100%;
+    transition: width 0.2s ease-in-out, transform 0.2s ease-in-out;
+    transform-origin: center center;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
