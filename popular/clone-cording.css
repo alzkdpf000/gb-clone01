@@ -320,7 +320,8 @@ html ::selection{
     flex-shrink: 0;
     transition: 0.2s ease-in-out;
 }
-.CategoryItem_pop{
+                
+.CategoryItem_pop ::after{
     padding: 0px 6px;
     min-height: 56px;
     position: relative;
@@ -627,27 +628,26 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
     }
 }
 
-.InfinityScroll__InfinityContainer{
-    min-height: 150px;
+@media only screen and (min-width: 1080px) {
+    .InfinityScroll__InfinityContainer_wrap {
+        width: 1032px;
+        margin: 0px auto;
+    }
 }
 
 .InfinityScroll__InfinityContainer_wrap{
-    position: relative;
-    height: auto;
     padding: 0px;
-    margin: 0px auto;
+    height: auto;
+    position: relative;
 }
-
+>>>>>>> popular
+.InfinityScroll__InfinityContainer{
+    min-height: 150px;
+}
 .InfinityScroll__ResultWrapper{
     color: rgb(51, 51, 51);
 }
-.InfinityScroll__ResultCounter{
-    font-size: 14px;
-    line-height: 24px;
-    color: rgb(61, 61, 61);
-    padding: 6px 16px 10px;
-    letter-spacing: -0.08px;
-}
+
 
 @media (min-width: 1080px) {
     .InfinityScroll__ResultCounter {
@@ -671,22 +671,24 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 @media (min-width: 640px) {
     .InfinityScroll__ListWrapper {
         width: auto;
+        padding: 0px 8px;
     }
 }
-
+>>>>>>> popular
 .InfinityScroll__ListWrapper{
     display: flex;
     flex-wrap: wrap;
 }
+.InfinityScroll__ProjectCardWrapper{
+    margin: 0px;
+    box-sizing: border-box;
+}
+>>>>>>> popular
 @media only screen and (min-width: 992px) {
     .InfinityScroll__ProjectCardWrapper {
         padding: 20px 10px;
         width: 25%;
     }
-}
-.InfinityScroll__ProjectCardWrapper{
-    margin: 0px;
-    box-sizing: border-box;
 }
 
 .BasicProjectCard__CardWrapper{
@@ -699,18 +701,145 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
     transform-origin: center center;
 }
 
+.BasicProjectCard__LinkWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+}
+a{
+    color: #FA6462;
+    text-decoration: none;
+    background: transparent;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+}
+.BasicProjectCard__ImageWrapper{
+    flex: 0 0 auto;
+    aspect-ratio: 1 / 1;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    width: 100%;
+    height: 100%;
+    transition: 0.2s ease-in-out;
+    overflow: hidden;
+    border-radius: 8px;
+    transform-origin: center center;
+}
+.BasicProjectCard__CardImage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.2s ease-in-out;
+}
 
+img{
+    border: 0;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
 
+ProjectLikeButton__AlertButtonStyle{
+    position: absolute;
+    z-index: 100;
+    bottom: 0px;
+    right: 0px;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    outline: 0px;
+    background: none;
+    border: none;
+}
+.BasicProjectCard__CardContent{
+    position: relative;
+    text-align: left;
+    width: 100%;
+    margin-top: 12px;
+    margin-left: 0px;
+    padding: 0px 4px;
+    display: flex;
+    flex-direction: column;
+}
 
+.BasicProjectCard__CardMainContent{
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4px;
+}
+.BasicProjectCard__CreatorNameWrapper{
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 4px;
+    -webkit-box-align: center;
+    align-items: center;
+    text-align: center;
+}
+.BasicProjectCard__InfoWrapper{
+    height: 80px;
+    margin-bottom: 9px;
+}
 
+.ProjectTitle__Title{
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 120%;
+    color: rgb(28, 28, 28);
+    margin-bottom: 6px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+}
 
+.BasicProjectCard__DescriptionWrapper{
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 150%;
+    color: rgb(109, 109, 109);
+}
 
+.BasicProjectCard__BadgeWrapper{
+    width: 100%;
+    height: 18px;
+    margin-bottom: 12px;
+}
+.ProjectBadges__BadgesWrapper{
+    display: flex;
+    gap: 4px;
+}
+.DefaultStatus__Status{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0px;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+.DefaultStatus__PercentageBar ::after{
+    overflow: hidden;
+    background: rgb(158, 158, 158);
+    height: 3px;
+    position: relative;
+    margin: 4px 0px 0px;
+}
 
-
-
-
-
-
+.ProjectCreatorName__CreatorName{
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 120%;
+    color: rgb(84, 84, 84);
+}
+>>>>>>> popular
 
 
 
