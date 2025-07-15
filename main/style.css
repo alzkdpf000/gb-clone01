@@ -916,3 +916,16 @@ div.card-content.side{
     margin-left: 11px;
     margin-top : 6px;
 }
+
+div.product-content{
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 120%;
+    color: rgb(28, 28, 28);
+    margin-bottom: 6px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+}
