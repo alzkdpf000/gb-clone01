@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 div.dtzwMJ {
     display: block;
     position: absolute;
@@ -19,31 +18,6 @@ div.IG {
 div.dfDxXK {
     height: 88px;
 }
-=======
-    div.dtzwMJ {
-        display: block;
-        position: absolute;
-        top: 0px;
-        right: 0px;
-        width: 50%;
-        height: 100%;
-        background-image: url(https://assets.tumblbug.com/static_assets/login/bg_login_kakao.jpg);
-        background-size: cover;
-        background-position: center center;
-    }
-
-    div.IG
- {
-        margin-top: 150px;
-        text-align: center;
-    }
-
-
-div.dfDxXK {
-        height: 88px;
-    }
-
->>>>>>> login
 
 
 div.tbb-only-ff {
@@ -70,7 +44,7 @@ h3, p, div {
     word-break: break-all;
 }
 
-<<<<<<< HEAD
+
 div.KFC {
     flex-direction: column;
     overflow: hidden;
@@ -78,9 +52,6 @@ div.KFC {
     min-height: 100vh;
     display: flex;
 }
-=======
-
->>>>>>> login
 
 div.jarjio {
     background-color: rgb(251, 249, 249);
@@ -130,15 +101,13 @@ button {
     overflow: visible;
 }
 
-<<<<<<< HEAD
-=======
 div.IG {
+    /* 수정부분 */
     margin-top: 0;
     text-align: center;
     width: 100%;
 }
 
->>>>>>> login
 div.kh {
     padding: 10px 0px;
     overflow: hidden;
