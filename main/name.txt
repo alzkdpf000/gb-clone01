@@ -116,3 +116,30 @@ jtUgVa -> side-bar-card-container
 
 
 dqVzfo -> rank-num
+
+kkATHs -> popular-prj-search
+
+
+sbpix -> middle-wrap-section
+
+gltdsQ -> middle-container
+
+eMjvNB -> middle-content-title
+ghSDFz -> middle-title-text
+
+gORnfG -> title-icon
+ehZPGX -> title-ad
+
+fWvFpP -> middle-prj-list-wrap
+
+imYpkR -> middle-prj-containner
+
+hJCSvl -> middle-prj-wrap
+
+hlRBMH -> middle-prj-list
+
+lhBEmG -> slide-next-btn
+
+fuBkMs -> circle-btn next-btn
+
+igspVJ -> move-all-list
