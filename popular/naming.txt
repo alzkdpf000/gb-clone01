@@ -72,12 +72,6 @@ ProjectCreatorName__CreatorName-sc-1cxgbwe-0 eycABy: ProjectCreatorName__Creator
 
 FilterUIButton__ActionIcon-sc-aco5jv-3 lBcXY icon-up :
 
+DefaultStatus__FundingProgressState-sc-srxzw7-1 dRtMPv: DefaultStatus__FundingProgressState
 
 
-
-
-
-
-
-
-FilterUIButton__ButtonWrapper-sc-aco5jv-1 fnKUBD

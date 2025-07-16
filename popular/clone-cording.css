@@ -725,13 +725,12 @@ ProjectLikeButton__AlertButtonStyle{
     margin-bottom: 4px;
 }
 .BasicProjectCard__CreatorNameWrapper{
-    display: flex;
-    -webkit-box-pack: justify;
-    justify-content: space-between;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    display: flex
+;
+    flex-direction: column;
     margin-bottom: 4px;
-    -webkit-box-align: center;
-    align-items: center;
-    text-align: center;
 }
 .BasicProjectCard__InfoWrapper{
     height: 80px;
@@ -791,7 +790,20 @@ ProjectLikeButton__AlertButtonStyle{
     color: rgb(84, 84, 84);
 }
 
+.DefaultStatus__FundingProgressState{
+    color: rgb(235, 75, 56);
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 120%;
+}
 
+.DefaultStatus__Status.funding-amount{
+    margin-left: 4px;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 120%;
+    color: rgb(84, 84, 84);
+}
 
 
 
