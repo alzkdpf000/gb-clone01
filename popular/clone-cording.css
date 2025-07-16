@@ -414,18 +414,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
     border-bottom: 1px solid rgb(245, 245, 245)
 }
 
-@media (min-width: 1080px) {
-    .styled__DiscoverPageWrapper {
-        padding: 0px 0px 40px;
-    }
-}
-
 .tbb{
     font-size: 14px;
     line-height: 24px;
     letter-spacing: -0.015em;
     font-weight: 400;
-    background: #fff;
     color: #3d3d3d;
 }
 .styled__FilterWrapper{
@@ -435,34 +428,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 }
 .styled__FilterContainer_wrap{
     position: relative;
+    width: 100%;
+    position: relative;
+    margin: 0px auto;
 }
 .styled__FilterContainer{
     height: 100%;
     display: flex;
     -webkit-box-align: center;
     align-items: center;
-}
-@media (min-width: 1080px) {
-    .styled__FilterContainer {
-        padding-right: 0px !important;
-    }
-}
-
-@media (min-width: 768px) {
-    .styled__FilterContainer {
-        padding: 0px 1rem 0px 0px !important;
-    }
-}
-
-@media only screen and (min-width: 1200px) {
-    .styled__FilterContainer_wrap {
-        width: 1160px;
-    }
-}
-@media only screen and (min-width: 1080px) {
-    .styled__FilterContainer_wrap {
-        margin: 0px auto;
-    }
+    padding: 0px 6px 0px 0px !important;
 }
 .styled__FilterLayout{
     margin-top: 24px;
@@ -483,49 +458,37 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 .styled__FilterOptions.wrap{
     flex-wrap: nowrap;
     white-space: nowrap;
+    padding-left: 1rem;
     display: inline-flex;
     padding-right: 50px;
 }
 
-@media (min-width: 1080px) {
-    .styled__FilterOptions .wrap {
-        padding-left: 0px;
-    }
-}
-
-@media (min-width: 768px) {
-    .FilterUIButton__ButtonWrapper {
-        border: 1px solid rgb(230, 230, 230);
-    }
-}
 
 .FilterUIButton__ButtonWrapper{
-    display: flex
-    ;
-        position: relative;
-        height: 34px;
-        line-height: 34px;
-        box-sizing: border-box;
-        margin: 0px 8px 0px 0px;
-        border-radius: 3px;
-        background: rgb(255, 255, 255);
-        color: rgb(72, 72, 72);
-        padding: 0px;
-        overflow: hidden;
+    display: flex;
+    position: relative;
+    height: 34px;
+    line-height: 34px;
+    box-sizing: border-box;
+    margin: 0px 8px 0px 0px;
+    border-radius: 3px;
+    border: 1px solid rgb(230, 230, 230);
+    background: rgb(255, 255, 255);
+    color: rgb(72, 72, 72);
+    padding: 0px;
+    overflow: hidden;
 }
 
 .FilterUIButton__StyledButton{
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    padding: 0px 27px 0px 8px;
     border: 0px;
     height: 100%;
     background: rgb(255, 255, 255);
     color: rgb(85, 85, 85);
     font-weight: normal;
-    cursor: pointer;
-    position: relative;
-}
-
-.tbb button {
-    outline: 0;
 }
 
 button, html input[type="button"], input[type="reset"], input[type="submit"] {
@@ -541,20 +504,9 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 }
 
 .FilterUIButton__StyledButton.title-wrapper{
+    display: inline;
     font-size: 1.07rem;
     position: relative;
-}
-
-@media (min-width: 768px) {
-    .FilterUIButton__StyledButton .title-wrapper {
-        display: inline;
-    }
-}
-
-@media (min-width: 1080px) {
-    .FilterUIButton__StyledButton .icon-down {
-        display: block;
-    }
 }
 
 .FilterUIButton__ActionIcon{
@@ -572,15 +524,16 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
     position: absolute !important;
 }
 
+.FilterUIButton__StyledButton.icon-down{
+    display: block;
+}
+
 .Icon__SVGICON{
     display: inline-flex;
     align-self: center;
 
 }
 
-.gWzmur .wrap > span:last-child {
-    margin-right: 0px !important;
-}
 
 .FilterUIButton__StyledButton{
     display: flex;
@@ -595,26 +548,29 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
     overflow: hidden;
 }
 
-@media (min-width: 768px) {
-    .FilterUIButton__StyledButton {
-        border: 1px solid rgb(230, 230, 230);
-    }
+.FilterUIButton__StyledButton.icon-up{
+    display: none;
 }
-
-.styled__FilterOptions .wrap > span:last-child {
-    margin-right: 0px !important;
-}
-
-@media (min-width: 1080px) {
-    .FilterUIButton__StyledButton {
-        font-size: 1rem;
-        padding: 0px 8px;
-    }
+.FilterUIButton__ButtonWrapper{
+    display: flex;
+    position: relative;
+    height: 34px;
+    line-height: 34px;
+    box-sizing: border-box;
+    margin: 0px 8px 0px 0px;
+    border-radius: 3px;
+    border: 1px solid rgb(230, 230, 230);
+    background: rgb(255, 255, 255);
+    color: rgb(72, 72, 72);
+    padding: 0px;
+    overflow: hidden;
 }
 
 .FilterUIButton__StyledButton{
+    outline: none;
     cursor: pointer;
     position: relative;
+    padding: 0px 8px;
     border: 0px;
     height: 100%;
     background: rgb(255, 255, 255);
@@ -622,31 +578,31 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
     font-weight: normal;
 }
 
-@media only screen and (min-width: 1200px) {
-    .InfinityScroll__InfinityContainer_wrap {
-        width: 1160px;
-    }
+.FilterUIButton__StyledButton.title-wrapper{
+    display: inline;
+    font-size: 1.07rem;
+    position: relative;
 }
 
-@media only screen and (min-width: 1080px) {
-    .InfinityScroll__InfinityContainer_wrap {
-        width: 1032px;
-        margin: 0px auto;
-    }
+.FilterUIButton__ActionIcon.icon-down{
+    display: none;
 }
 
 .InfinityScroll__InfinityContainer_wrap{
-    padding: 0px;
-    height: auto;
     position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
 }
->>>>>>> popular
+
 .InfinityScroll__InfinityContainer{
     min-height: 150px;
 }
 .InfinityScroll__ResultWrapper{
     color: rgb(51, 51, 51);
 }
+
 
 
 @media (min-width: 1080px) {
@@ -674,22 +630,47 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
         padding: 0px 8px;
     }
 }
->>>>>>> popular
+
+
+@media only screen and (min-width: 1200px) {
+    .InfinityScroll__InfinityContainer_wrap {
+        width: 1160px;
+    }
+}
+
+.InfinityScroll__ResultCounter{
+    font-size: 14px;
+    line-height: 24px;
+    color: rgb(61, 61, 61);
+    padding: 6px 16px 10px;
+    letter-spacing: -0.08px;
+}
+
+
 .InfinityScroll__ListWrapper{
     display: flex;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
     flex-wrap: wrap;
+    width: 100%;
+    padding: 0px 16px;
+    
 }
 .InfinityScroll__ProjectCardWrapper{
+    width: 100%;
     margin: 0px;
     box-sizing: border-box;
+    padding: 8px 0px;
 }
->>>>>>> popular
+
+
 @media only screen and (min-width: 992px) {
     .InfinityScroll__ProjectCardWrapper {
         padding: 20px 10px;
         width: 25%;
     }
 }
+
 
 .BasicProjectCard__CardWrapper{
     display: flex;
@@ -774,13 +755,12 @@ ProjectLikeButton__AlertButtonStyle{
     margin-bottom: 4px;
 }
 .BasicProjectCard__CreatorNameWrapper{
-    display: flex;
-    -webkit-box-pack: justify;
-    justify-content: space-between;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    display: flex
+;
+    flex-direction: column;
     margin-bottom: 4px;
-    -webkit-box-align: center;
-    align-items: center;
-    text-align: center;
 }
 .BasicProjectCard__InfoWrapper{
     height: 80px;
@@ -839,9 +819,22 @@ ProjectLikeButton__AlertButtonStyle{
     line-height: 120%;
     color: rgb(84, 84, 84);
 }
->>>>>>> popular
 
 
+.DefaultStatus__FundingProgressState{
+    color: rgb(235, 75, 56);
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 120%;
+}
+
+.DefaultStatus__Status.funding-amount{
+    margin-left: 4px;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 120%;
+    color: rgb(84, 84, 84);
+}
 
 
 
