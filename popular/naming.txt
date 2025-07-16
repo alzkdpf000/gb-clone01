@@ -39,7 +39,7 @@ FilterUIButton__ActionIcon-sc-aco5jv-3 lBcXY: FilterUIButton__ActionIcon
 icon-down
 
 Icon__SVGICON-sc-bv7y1u-0 fuBkMs : Icon__SVGICON
-FilterUIButton__ButtonWrapper-sc-aco5jv-1 fnKUBD : FilterUIButton__StyledButton
+FilterUIButton__ButtonWrapper-sc-aco5jv-1 fnKUBD : FilterUIButton__ButtonWrapper
 
 FilterUIButton__StyledButton-sc-aco5jv-2 YBXTh: FilterUIButton__StyledButton
 icon-up
@@ -70,5 +70,9 @@ DefaultStatus__PercentageBar-sc-srxzw7-2 bceGIr: DefaultStatus__PercentageBar
 
 ProjectCreatorName__CreatorName-sc-1cxgbwe-0 eycABy: ProjectCreatorName__CreatorName
 >>>>>>> popular
+
+FilterUIButton__ActionIcon-sc-aco5jv-3 lBcXY icon-up :
+
+DefaultStatus__FundingProgressState-sc-srxzw7-1 dRtMPv: DefaultStatus__FundingProgressState
 
 
