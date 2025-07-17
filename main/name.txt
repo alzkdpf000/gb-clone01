@@ -143,3 +143,29 @@ lhBEmG -> slide-next-btn
 fuBkMs -> circle-btn next-btn
 
 igspVJ -> move-all-list
+
+iiHLgs -> container-component
+
+dyQDnR -> content-info
+
+iRlFxp -> content-info-thumnail
+
+frSrZ -> thumnail-container
+
+eVcSvW -> content-info-text
+
+ilxvVC -> text-info
+
+iifbyW -> text-title
+
+cLYjMl -> text-description
+
+bygPVh -> view-all-btn
+
+fuBkMs -> arrow-right
+
+gWLLtT -> collect-card-list
+
+hJCSvl -> card-list-slider
+
+arrow-
