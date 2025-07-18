@@ -118,7 +118,6 @@ svg:not(:root){
 
 img {
     border: 0;
-    overflow-clip-margin: content-box;
     overflow: clip;
 }
 
@@ -979,7 +978,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
     display: inline-flex;
     color: rgb(109, 109, 109);
     font-weight: 500;
-    line-height: 20px;
     transition: 0.3s ease-in-out;
     cursor: pointer;
 }
@@ -1165,4 +1163,68 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
     padding-left: 1px;
     display: inline-flex;
     align-self: center;
+}
+
+.style-footer-sms-container {
+    display: flex;
+    padding-left: 0px;
+    width: 100%;
+    margin-bottom: 20px;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    color: rgb(102, 102, 102);
+    font-size: 10px;
+    font-weight: normal;
+    line-height: 150%;
+}
+
+.style-footer-sms-link {
+    display: inline-block;
+}
+
+.style-footer-sms-link img {
+    vertical-align: middle;
+}
+
+.style-footer-sms-col-wrapper {
+    width: 1080px;
+    display: flex;
+    width: 100%;
+    padding-left: 4px;
+    flex-direction: column;
+}
+
+.style-footer-sms-flex-wrapper {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.style-flex-span {
+    display: flex;
+}
+
+.style-footer-notify {
+    display: flex;
+    width: 100%;
+    height: auto;
+    min-height: 56px;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background: rgb(240, 240, 240);
+    color: rgb(109, 109, 109);
+}
+
+.style-footer-notify-text {
+    width: 1160px;
+    padding: 10px 16px;
+    display: flex;
+    height: auto;
+    font-size: 12px;
+    line-height: 18px;
 }
