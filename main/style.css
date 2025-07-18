@@ -1099,6 +1099,11 @@ div.circle-btn svg{
     height: 1em;
 }
 
+div.circle-btn:disabled svg{
+    opacity: 0.2;
+}
+
+
 div.title-icon a{
     display: flex;
     align-items: center;
@@ -1119,4 +1124,164 @@ a.move-all-list{
     cursor: pointer;
     min-width: 58px;
     color: rgb(84, 84, 84);
+}
+
+div.container-component{
+    padding: 48px 0px 0px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    position: relative;
+    display: flex;
+    margin: 0px auto 40px;
+    max-width: 1160px;
+    width: 100%;
+}
+
+div.content-info{
+    width: 300px;
+}
+
+div.content-info-thumnail{
+    margin-bottom: 28px;
+}
+div.content-info a{
+    color : rgb(13, 13, 13);
+}
+
+div.thumnail-container{
+    max-height: 360px;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+
+img.thumnail-thumnail-img{
+    display: block;
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    border-radius: 12px;
+
+}
+div.text-info{
+    gap: 12px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+div.text-title{
+    font: 700 20px /28px Pretendard
+}
+div.text-description{
+    font: 400 14px /24px Pretendard
+}
+
+a.view-all-btn {
+    padding: 10px 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    margin: 0px auto;
+    border: 1px solid rgb(158,158,158);
+    border-radius: 60px;
+    font: 500 12px / 20px Pretendard;
+}
+
+div.arrow-right{
+    display: inline-flex;
+    align-self: center;
+}
+
+div.arrow-right svg{
+    width: 1em;
+    height: 1em;
+}
+div.collect-card-list{
+    width: 764px;
+    padding: 0px;
+    margin-bottom: 0px;
+    position: relative;
+}
+div.card-list-container{
+    width: 100%;
+    padding: 0px;
+    z-index: 2;
+    position: relative;
+    max-width: 1160px;
+    margin: 0 auto;
+
+}
+
+div.card-list-slider{
+    position: relative;
+}
+div.double-line{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 40px 14px;
+    
+}
+
+div.chunk-item{
+    min-width: 0px;
+}
+
+button.tbb-slide-button{
+    top : 50%;
+    transform:  translateY(-50%);
+    display: flex;
+    width: 48px;
+    height: 48px;
+    padding: 0px;
+    position: absolute;
+    border: 0px;
+    border-radius: 100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 4px,rgba(0, 0, 0, 0.1) 0px 4px 5px;
+    background: white;
+    color: rgb(61,61,61);
+    align-items: center;
+    justify-content: center;
+    outline: 0px;
+    z-index: 3;
+    transition: 0.5s;
+}
+
+button.tbb-slide-button.left{
+    left: auto;
+    right: 100%;
+    margin-right: 16px;
+}
+
+button.tbb-slide-button.right{
+    left: 100%;
+    right: auto;
+    margin-left: 16px;
+}
+
+button.tbb-slide-button.left:disabled svg{
+    opacity: 0.2;
+    margin-right: 2px;
+    font-size: 16px;
+    fill: rgb(13, 13, 13);
+    width: 1em;
+    height: 1em;
+}
+div.tbb-btn svg{
+    font-size: 16px;
+    fill: rgb(13,13,13);
+    width: 1em;
+    height: 1em;
+}
+div.tbb-btn{
+    display: inline-flex;
+    align-self: center;
+}
+
+
+button.tbb-slide-button.right svg{
+    margin-left: 2px;
 }
