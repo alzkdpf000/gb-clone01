@@ -130,6 +130,8 @@ PrelaunchStatus__Text-sc-cz3gk7-1 iFptFe
 = prelaunch-status-text
 PrelaunchStatus__Button-sc-cz3gk7-4 htVjWk
 = prelaunch-status-button
+PrelaunchStatus__Alert-sc-cz3gk7-2 bugItX
+= prelaunch-status-alert
 style__Container-sc-mwpm3y-0 ljbViN
 = style-container
 style__FooterWrapper-sc-mwpm3y-1 dOfWqZ"
@@ -162,7 +164,7 @@ style__FooterLinkCustomerTitle-sc-mwpm3y-15 iiFVZf
 = style-footer-link-customer-title
 style__FooterLinkCustomerDesc-sc-mwpm3y-16 fEaThc
 = style-footer-link-customer-desc
-style__FooterLinkCustomerChannelTalk-sc-mwpm3y-17 klwjeF"
+style__FooterLinkCustomerChannelTalk-sc-mwpm3y-17 klwjeF
 = style-footer-link-customer-channel-talk
 style__FooterCompanyWrapper-sc-mwpm3y-18 SVffD
 = style-footer-company-wrapper
@@ -176,3 +178,17 @@ style__FooterShareButton-sc-mwpm3y-23 bSXhPN
 = style-footer-share-button
 Icon__SVGICON-sc-bv7y1u-0 fuBkMs style__SNSLinkIcon-sc-mwpm3y-30 khPnlM
 = icon-svgicon-style-sns-link-icon
+style__FooterISMSContainer-sc-mwpm3y-24 WNaHl
+= style-footer-sms-container
+style__FooterISMSLink-sc-mwpm3y-31 jkaRHt
+= style-footer-sms-link
+style__FooterISMSColWrapper-sc-mwpm3y-25 fynMla
+= style-footer-sms-col-wrapper
+style__FooterISMSFlexWrapper-sc-mwpm3y-26 edhNjr
+= style-footer-sms-flex-wrapper
+style__FlexSpan-sc-mwpm3y-27 gWLTw
+= style-flex-span
+style__FooterNotify-sc-mwpm3y-28 kxfHQa
+= style-footer-notify
+style__FooterNotifyText-sc-mwpm3y-29 hyFNJT
+= style-footer-notify-text
