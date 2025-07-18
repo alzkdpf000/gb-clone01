@@ -168,4 +168,75 @@ gWLLtT -> collect-card-list
 
 hJCSvl -> card-list-slider
 
-arrow-
+
+gVtAaM  -> idus-content
+
+fJBnpl -> idus-content-wrap
+
+fIAgdh -> idus-content-title
+
+fAIZWP -> idus-content-title-img
+
+fwTvU -> idus-project-list
+
+imYpkR -> idus-project-container
+
+gltdsQ ->display-order-content
+
+eMjvNB ->display-order-title
+
+fPbbdv -> title-style-count
+
+faElKy =>front-page-bottom
+
+zUomy -> prj-start-banner
+
+ljbViN => prj-banner-content
+
+iFhIOp -> prj-start-banner-title
+
+ljbVin -> style-container
+
+dofWqZ -> footer-wrap
+
+jRZxKn -> footer-link-wrap
+
+jRZxKn -> footer-link
+
+jyAyjN -> footer-sitmap
+
+dJeqfR -> footer-sitemap-content
+
+glXvRd -> footer-content-list
+
+jqbeyJ -> footer-sitemap-title
+
+cYqdnK -> linked-list
+
+cQVBic -> linked-list-store-btn
+
+loFYAL => footer-customer
+
+iiFVZf -> customer-title
+
+fEaThc ->  customer-date
+
+klwjeF -> customer-link
+
+sVffD -> footer-company
+
+lyAFx -> footer-company-wrap
+
+cxEfBq -> footer-company-item
+
+fhyQDA -> footer-share-btn
+
+WNaHI -> footer-isms-container
+
+fynMia -> footer-isms-wrap
+
+edhNjr -> footer-isms-content
+
+kxfHQa -> footer-notify
+
+hyFNJT -> footer-notify-text
